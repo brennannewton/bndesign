@@ -1,4 +1,4 @@
 [build]
   command = "npm run build"
-  publish="react-bndesign/build"
-  base = "react-bndesign"
+  publish="bndesign/react-bndesign/build"
+  base = "bndesign/react-bndesign"
