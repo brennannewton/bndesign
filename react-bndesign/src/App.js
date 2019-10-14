@@ -1,9 +1,13 @@
 import React from 'react';
+
+import Navigation from './components/Navigation';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <h1>Organic</h1>
       <p>These mushrooms are organic. That means humans haven't exerted their control over them... Or have they?</p>
       <p>Left click to rotate. Right click to pan. Scroll to zoom.</p>
