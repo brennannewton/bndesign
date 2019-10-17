@@ -5,7 +5,7 @@ Created with React, Node, Visual Studio Code, & Vectary.
 This website serves as an archive for my work and creates an emotionally engaging user experience (UX).
 
 #### Concept
-Desgin webspace to feel hospitable. Hompages should make the user feel welcome; colors, textures, and lighting should create a friendly atmosphere; and navigation tools should encourage exploration. These design choices aim to make the website feel like home with the hope that the user feels more comfortable in the space.
+Design webspace to feel hospitable. Hompages should make the user feel welcome; colors, textures, and lighting should create a friendly atmosphere; and navigation tools should encourage exploration. These design choices aim to make the website feel like home with the hope that the user feels more comfortable in the space.
 
 #### Tools
 - __Vectary__ is a CMS (Content Management System) for 3D and AR (Augmented Reality) content. I'll use this to create 3D models and embed them into my website. These will give the space depth.
