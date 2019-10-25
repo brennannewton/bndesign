@@ -1,7 +1,8 @@
 .App {
   text-align: center;
+  color: black;
+
   background-image: linear-gradient(#AB9AE3, #DFB183);
-  color: peachpuff;
 }
 
 .App-logo {
