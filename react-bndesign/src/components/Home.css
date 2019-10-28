@@ -1,5 +1,16 @@
+/* Title size on xs devices */
 .title {
-    font-size: 7rem;
+    font-size: 5rem;
+}
+
+/* Increase title size on sm devices */
+@media (min-width: 544px) {
+    .title {font-size: 6rem;}
+}
+
+/* Increase title size more on md, lg, and xl devies */
+@media (min-width: 768px) {
+    .title {font-size: 7rem;}
 }
 
 .subtitle {

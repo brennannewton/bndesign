@@ -10,11 +10,13 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <h1 className="title">WELCOME</h1>
+        <Row className="justify-content-center">
+          <Col className="title">WELCOME</Col>
+        </Row>
         <h4 className="subtitle mt-3">Please explore.</h4>
         <div>
           <Row className="justify-content-center">
-            <Col xs={8} md={4} className=" m-5 p-5 bio">Hi, my name is Brennan Newton.
+            <Col xs={8} md={4} className="m-5 p-5 bio">Hi, my name is Brennan Newton.
               I'm a web developer, and this is my work.
               <br />
               <br />
