@@ -12,7 +12,7 @@ Design webspace to feel hospitable. Hompages should make the user feel welcome; 
 - __React__ is a JavaScript libary for building user interfaces. It organizes HTML elements into components, providing a framework for both code and design.
 - __Atomic Design__ by Brad Frost is a mental model that organizes design elements into a hierarchy. Frost describes this hierarchy, "as both a cohesive whole and collection of parts _at the same time_." This model allows designers to quickly shift between abstract and concrete modes of thinking.
 
-#### Open Source
+#### Setup
 This project is open source.
 
 In the terminal, make sure to be in the _react-bndesign_ folder when you run ```npm start```.
