@@ -26,3 +26,12 @@
     background-color: #DFB183;
     border-radius: 25px;
 }
+
+.vectary-container {
+    display: flex;
+    margin-top: 0;
+}
+
+.vectary-container iframe {
+    margin: auto;
+}
