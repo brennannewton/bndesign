@@ -1,6 +1,6 @@
 /* Title size on xs devices */
 .title {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 /* Increase title size on sm devices */
@@ -20,6 +20,11 @@
 .bio {
     background-color: #DFB183;
     border-radius: 25px;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 544px) {
+    .bio {margin-bottom: 0rem;}
 }
 
 .ux {
