@@ -16,13 +16,13 @@ export default class Home extends React.Component {
         <h4 className="subtitle mt-3">Please explore.</h4>
         <div>
           <Row className="justify-content-center mb-0">
-            <Col xs={8} md={4} className="mt-5 mr-5 mb-0 p-5 bio">Hi, my name is Brennan Newton.
+            <Col xs={8} md={4} className="mt-5 ml-5 mr-5 mb-0 p-5 bio">Hi, my name is Brennan Newton.
               I'm a web developer, and this is my work.
               <br />
               <br />
               Click on the icons top right to explore my work and contact me.
             </Col>
-            <Col xs={8} md={4} className="mt-5 ml-5 mb-0 p-5 ux">User Experience (UX)</Col>
+            <Col xs={8} md={4} className="mt-5 ml-5 mr-5 mb-0 p-5 ux">User Experience (UX)</Col>
           </Row>
         </div>
         <div className="vectary-container">
