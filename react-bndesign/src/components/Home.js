@@ -13,7 +13,7 @@ export default class Home extends React.Component {
         <Row className="justify-content-center m-auto p-2 w-100">
           <Col className="title">WELCOME</Col>
         </Row>
-        <h4 className="subtitle mt-3 mb-3">Please explore.</h4>
+        <h4 className="subtitle mb-3">Please explore.</h4>
         <Row className="justify-content-center m-auto mb-0 p-4 w-100">
           <Col xs={8} md={4} className="mt-0 ml-5 mr-5 p-5 bio">Hi, my name is Brennan Newton.
             I'm a web developer, and this is my work.
