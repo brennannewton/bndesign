@@ -36,8 +36,9 @@ export default class MusicVideos extends React.Component {
           <Col className="mr-5">
             <h1>Music Videos</h1>
             <p>My videos investigate the relationship between music & emotion. Music makes us laugh. Music makes us cry. Music scares us.</p>
-            <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=studio1" frameborder="0" width="50%" height="480"></iframe>
-            <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=studio1" frameborder="0" width="50%" height="480"></iframe>
+            <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=studio1" frameborder="0" width="33%" height="480"></iframe>
+            <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=studio1" frameborder="0" width="33%" height="480"></iframe>
+            <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=studio1" frameborder="0" width="33%" height="480"></iframe>
           </Col>
         </Row>
       </div>
