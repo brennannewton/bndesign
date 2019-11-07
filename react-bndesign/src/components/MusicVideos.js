@@ -19,9 +19,9 @@ export default class MusicVideos extends React.Component {
   render () {
     return (
       <div className="MusicVideos-Component">
-        <Row className="w-100">
-          <Col className="mr-5 mb-5 ml-5">
-            <div className="mv-container ml-5">
+        <Row className="justify-content-center w-100">
+          <Col xs={8} md={5} className="justify-content-center mr-5 mb-5 ml-5">
+            <div className="mv-container m-auto">
               <iframe src="https://www.youtube.com/embed/Yd04u_iSzXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <iframe src="https://www.youtube.com/embed/G3rbz1-R8B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <iframe src="https://www.youtube.com/embed/pjKZb9llaNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -33,7 +33,7 @@ export default class MusicVideos extends React.Component {
               </Pagination>
             </div>
           </Col>
-          <Col className="mr-5">
+          <Col xs={8} md={5} className="justify-content-center mr-5 ml-5">
             <h1>Music Videos</h1>
             <p>My videos investigate the relationship between music & emotion. Music makes us laugh. Music makes us cry. Music scares us.</p>
             <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=studio1" frameborder="0" width="33%" height="480"></iframe>

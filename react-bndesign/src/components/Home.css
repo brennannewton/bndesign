@@ -23,7 +23,7 @@
     margin-bottom: 3rem;
 }
 
-@media (min-width: 544px) {
+@media (min-width: 768px) {
     .Home-Component .bio {margin-bottom: 0rem;}
 }
 
