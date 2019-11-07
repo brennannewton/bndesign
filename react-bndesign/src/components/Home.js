@@ -9,7 +9,7 @@ import './Home.css'
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="Home">
+      <div className="Home-Component">
         <Row className="justify-content-center m-auto p-2 w-100">
           <Col className="title">WELCOME</Col>
         </Row>

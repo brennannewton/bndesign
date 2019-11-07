@@ -1,33 +1,33 @@
 /* Title size on xs devices */
-.title {
+.Home-Component .title {
     font-size: 4rem;
 }
 
 /* Increase title size on sm devices */
 @media (min-width: 544px) {
-    .title {font-size: 6rem;}
+    .Home-Component .title {font-size: 6rem;}
 }
 
 /* Increase title size more on md, lg, and xl devies */
 @media (min-width: 768px) {
-    .title {font-size: 7rem;}
+    .Home-Component .title {font-size: 7rem;}
 }
 
-.subtitle {
+.Home-Component .subtitle {
     font-size: 1.5rem;
 }
 
-.bio {
+.Home-Component .bio {
     background-color: #DFB183;
     border-radius: 25px;
     margin-bottom: 3rem;
 }
 
 @media (min-width: 544px) {
-    .bio {margin-bottom: 0rem;}
+    .Home-Component .bio {margin-bottom: 0rem;}
 }
 
-.ux {
+.Home-Component .ux {
     background-color: #DFB183;
     border-radius: 25px;
 }
