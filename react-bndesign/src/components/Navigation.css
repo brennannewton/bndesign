@@ -1,0 +1,9 @@
+/* Change the color of the nav icons depending on the current page */
+
+.Home svg {
+  fill: black;
+}
+
+.MusicVideos svg {
+  fill: white;
+}

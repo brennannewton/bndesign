@@ -4,10 +4,20 @@ import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+//Styles
+import './Navigation.css';
+
 export default class Navigation extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      currPage: '',
+    };
+  }
+
   render() {
     return (
-        <div id="reactstrap-navbar">
+        <div id="reactstrap-navbar" className={`${this.state.currPage}`}>
           <Navbar collapseOnSelect expand="md" className="w-100 p-4">
             <Navbar.Brand as={Link} to="/" className="mb-auto" onClick={() => this.props.setCurrPage('Home')}>
               <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 17">

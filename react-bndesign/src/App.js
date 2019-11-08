@@ -26,7 +26,7 @@ export default class App extends React.Component {
     return (
       <div className={`App ${this.state.currPage}`}>
         <BrowserRouter>
-        <Navigation setCurrPage={this.setCurrPage}/>
+        <Navigation setCurrPage={this.setCurrPage} currPage={this.state.currPage}/>
         <div id="react-router-dom-switch">
           <AnimatedSwitch
             atEnter={{ opacity: 0 }}
