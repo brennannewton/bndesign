@@ -36,11 +36,11 @@ export default class App extends React.Component {
             className="switch-wrapper"
           >
             <Route path="/" exact render={() => <Home />} />
-            <Route path="/music-videos" exact render={() => <MusicVideos />} />
-            <Route path="/illustrations" exact render={() => <Illustrations />} />
-            <Route path="/paintings" exact render={() => 'Paintings'} />
-            <Route path="/ux" exact render={() => 'UX'} />
-            <Route path="/contact" exact render={() => 'Contact'} />
+            <Route path="/music-videos" render={() => <MusicVideos />} />
+            <Route path="/illustrations" render={() => <Illustrations />} />
+            <Route path="/paintings" render={() => 'Paintings'} />
+            <Route path="/ux" render={() => 'UX'} />
+            <Route path="/contact" render={() => 'Contact'} />
           </AnimatedSwitch>
         </div>
         </BrowserRouter>
