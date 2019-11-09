@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 import Home from './components/Home';
 import MusicVideos from './components/MusicVideos';
+import Illustrations from './components/Illustrations';
 
 // Styles
 import './App.css';
@@ -36,7 +37,7 @@ export default class App extends React.Component {
           >
             <Route path="/" exact render={() => <Home />} />
             <Route path="/music-videos" exact render={() => <MusicVideos />} />
-            <Route path="/illustrations" exact render={() => 'Illustrations'} />
+            <Route path="/illustrations" exact render={() => <Illustrations />} />
             <Route path="/paintings" exact render={() => 'Paintings'} />
             <Route path="/ux" exact render={() => 'UX'} />
             <Route path="/contact" exact render={() => 'Contact'} />

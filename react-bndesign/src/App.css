@@ -3,12 +3,18 @@
   color: black;
 }
 
+/* Change the background style with the active page */
+
 .Home {
   background-image: linear-gradient(#AB9AE3, #DFB183);
 }
 
 .MusicVideos {
   background-image: linear-gradient(#615C9C, #E39C8F);
+}
+
+.Illustrations {
+  background-image: linear-gradient(#000000, #8F97E3);
 }
 
 .App-logo {

@@ -8,6 +8,7 @@
   width: 75%;
   background-color: #E39C8F;
   border-radius: 25px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .MusicVideos-Component .mv-container iframe {

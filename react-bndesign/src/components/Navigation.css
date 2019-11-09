@@ -1,4 +1,4 @@
-/* Change the color of the nav icons depending on the current page */
+/* Change the icon color with the active page */
 
 .Home svg {
   fill: black;
@@ -6,4 +6,8 @@
 
 .MusicVideos svg {
   fill: white;
+}
+
+.Illustrations svg {
+  fill: #F7EFB9;
 }
