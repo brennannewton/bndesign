@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 //Styles
-import './Navigation.css';
+import '../css/Navigation.css';
 
 export default class Navigation extends React.Component {
   constructor (props) {

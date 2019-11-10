@@ -5,17 +5,15 @@
 
 /* Change the background style with the active page */
 
-.Home {
-  background-image: linear-gradient(#AB9AE3, #DFB183);
-}
+.Home { background-image: linear-gradient(#AB9AE3, #DFB183); }
 
-.MusicVideos {
-  background-image: linear-gradient(#615C9C, #E39C8F);
-}
+.MusicVideos { background-image: linear-gradient(#615C9C, #E39C8F); }
 
-.Illustrations {
-  background-image: linear-gradient(#000000, #8F97E3);
-}
+.Illustrations { background-image: linear-gradient(#000000, #8F97E3); }
+
+.Paintings { background-image: linear-gradient(#273A89, #E0D6C0); }
+
+.UX { background-image: linear-gradient(#3762C6, #A5CAE5);}
 
 .App-logo {
   height: 40vmin;

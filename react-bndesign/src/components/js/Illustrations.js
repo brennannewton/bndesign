@@ -4,14 +4,14 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 // Styles
-import './Illustrations.css';
+import '../css/Illustrations.css';
 
 // Images
-import B from '../img/B.png';
-import B_OC from '../img/B_OC_2.png';
-import Cal_OC from '../img/Cal_OC_1.png';
-import Mads_OC from '../img/Mads_OC_2.png';
-import Bed from '../img/Bed.png';
+import B from '../../img/B.png';
+import B_OC from '../../img/B_OC_2.png';
+import Cal_OC from '../../img/Cal_OC_1.png';
+import Mads_OC from '../../img/Mads_OC_2.png';
+import Bed from '../../img/Bed.png';
 
 export default class Illustrations extends React.Component {
     render() {

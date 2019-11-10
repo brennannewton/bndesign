@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Pagination from 'react-bootstrap/Pagination';
 
 //Styles
-import './MusicVideos.css'
+import '../css/MusicVideos.css'
 
 export default class MusicVideos extends React.Component {
   handleClick1 = () => {

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 //Styles
-import './Home.css'
+import '../css/Home.css'
 
 export default class Home extends React.Component {
   render() {
