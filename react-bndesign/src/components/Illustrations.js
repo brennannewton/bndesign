@@ -21,7 +21,7 @@ export default class Illustrations extends React.Component {
             <Col xs={8} lg={5} className="justify-content-center mr-5 mb-5 ml-5"> 
               <h1>Illustrations</h1>
               <p>I draw digital characters. The one in the pink is B. The other three are The Creep Beaters.</p>
-              <iframe id="5bb7fddc-528e-415d-a97a-22de24f930e0" src="https://www.vectary.com/viewer/v1/?model=5bb7fddc-528e-415d-a97a-22de24f930e0&env=sataranightnolights" frameBorder="0" width="100%" height="480"></iframe>
+              <iframe id="5bb7fddc-528e-415d-a97a-22de24f930e0" src="https://www.vectary.com/viewer/v1/?model=5bb7fddc-528e-415d-a97a-22de24f930e0&env=theskyisonfire" frameBorder="0" width="100%" height="480"></iframe>
             </Col>
             <Col xs={8} lg={5} className="justify-content-center mr-5 mb-5 ml-5">
               <div className="illustrations-container m-auto">
