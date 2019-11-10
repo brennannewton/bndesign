@@ -19,7 +19,7 @@ export default class UX extends React.Component {
         <h1>UX</h1>
         <p>I'm a software engineer who always keeps the user experience in mind. Here are some of my projects.</p>
         <Row className="w-100">
-          <Col>
+          <Col className="mb-4">
             <Carousel>
               <Carousel.Item>
                 <img
@@ -44,6 +44,13 @@ export default class UX extends React.Component {
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
+          </Col>
+          <Col className="w-100">
+            <div className="link-container">
+              <h3>Links</h3>
+              <p><a href="https://electrala.netlify.com" target="_blank">electrala.netlify.com</a></p>
+              <p><a href="https://bndesgin.netlify.com" target="_blank">bndesign.netlify.com</a></p>
+            </div>
           </Col>
         </Row>
       </div>

@@ -10,6 +10,7 @@ import MusicVideos from './components/js/MusicVideos';
 import Illustrations from './components/js/Illustrations';
 import Paintings from './components/js/Paintings';
 import UX from './components/js/UX';
+import Contact from './components/js/Contact';
 
 // Styles
 import './App.css';
@@ -44,7 +45,7 @@ export default class App extends React.Component {
             <Route path="/illustrations" render={() => <Illustrations />} />
             <Route path="/paintings" render={() => <Paintings />} />
             <Route path="/ux" render={() => <UX />} />
-            <Route path="/contact" render={() => 'Contact'} />
+            <Route path="/contact" render={() => <Contact />} />
           </AnimatedSwitch>
         </div>
         </BrowserRouter>
