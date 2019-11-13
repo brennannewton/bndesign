@@ -1,6 +1,7 @@
 /* Title size on xs devices */
 .Home-Component .title {
     font-size: 4rem;
+    font-weight: 625;
 }
 
 /* Increase title size on sm devices */
@@ -15,6 +16,7 @@
 
 .Home-Component .subtitle {
     font-size: 1.5rem;
+    font-weight: 100;
 }
 
 .Home-Component .bio {
