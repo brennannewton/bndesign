@@ -9,15 +9,14 @@ import '../css/UX.css';
 
 // Images
 
-import ELECTRA from '../../img/ELECTRA_SS.png';
-import bndesign from '../../img/bndesign_SS.png';
+import ELECTRA from '../../img/ELECTRA_SS_Fade.png';
+import bndesign from '../../img/bndesign_SS_Fade.png';
 
 export default class UX extends React.Component {
   render() {
     return (
       <div className="UX-Component m-4">
-        <h1>UX</h1>
-        <p>I'm a software engineer who always keeps the user experience in mind. Here are some of my projects.</p>
+        <h1 className="mb-4">UX</h1>
         <Row className="w-100">
           <Col className="mb-4">
             <Carousel>
@@ -45,11 +44,16 @@ export default class UX extends React.Component {
               </Carousel.Item>
             </Carousel>
           </Col>
-          <Col className="w-100">
-            <div className="link-container">
-              <h3>Links</h3>
+          <Col className="w-100 d-flex flex-row">
+            <div className="link-container mr-5 ml-3">
+              <h3>Sites</h3>
               <p><a href="https://electrala.netlify.com" target="_blank">electrala.netlify.com</a></p>
               <p><a href="https://bndesgin.netlify.com" target="_blank">bndesign.netlify.com</a></p>
+            </div>
+            <div className="code-container">
+              <h3>Code</h3>
+              <p><a href="https://github.com/electrala" target="_blank">ELECTRA</a></p>
+              <p><a href="https://github.com/brennannewton/bndesign" target="_blank">bndesign</a></p>
             </div>
           </Col>
         </Row>
