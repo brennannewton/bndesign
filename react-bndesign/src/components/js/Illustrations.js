@@ -18,12 +18,16 @@ export default class Illustrations extends React.Component {
       return (
         <div className="Illustrations-Component">
           <Row className="justify-content-center w-100">
-            <Col xs={8} lg={5} className="justify-content-center mr-5 mb-5 ml-5"> 
+            <Col xs={11} lg={5} className="justify-content-center mt-4 mr-4 mb-5 ml-5"> 
               <h1>Illustrations</h1>
-              <p>I draw digital characters. The one in the pink is B. The other three are The Creep Beaters.</p>
-              <iframe id="5bb7fddc-528e-415d-a97a-22de24f930e0" src="https://www.vectary.com/viewer/v1/?model=5bb7fddc-528e-415d-a97a-22de24f930e0&env=theskyisonfire" frameBorder="0" width="100%" height="480"></iframe>
+              <p>
+                I draw digital characters. The one in the pink is B. The next
+                three are The Creep Beaters, best friends who protect the
+                innocent. The final one is called Bed. 
+              </p>
+              <iframe id="5bb7fddc-528e-415d-a97a-22de24f930e0" src="https://www.vectary.com/viewer/v1/?model=5bb7fddc-528e-415d-a97a-22de24f930e0&env=sataranightnolights" frameBorder="0" width="100%" height="480"></iframe>
             </Col>
-            <Col xs={8} lg={5} className="justify-content-center mr-5 mb-5 ml-5">
+            <Col xs={11} lg={6} className="justify-content-center mr-4 mb-5">
               <div className="illustrations-container m-auto">
                 <img src={B} alt="" />
                 <img src={B_OC} alt="" />
