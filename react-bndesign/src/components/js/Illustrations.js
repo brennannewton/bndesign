@@ -61,6 +61,7 @@ export default class Illustrations extends React.Component {
                       { src: Maggie_OC, alt:"Maggie" }
                     ]}
                     activeIndex={0}
+                    noImgDetails={true}
                   />
                 </div>
                 <div className="viewer_Mads">
@@ -79,6 +80,7 @@ export default class Illustrations extends React.Component {
                       { src: Maggie_OC, alt:"Maggie" }
                     ]}
                     activeIndex={1}
+                    noImgDetails={true}
                   />
                 </div>
                 <div className="viewer_Cal">
@@ -97,6 +99,7 @@ export default class Illustrations extends React.Component {
                       { src: Maggie_OC, alt:"Maggie" }
                     ]}
                     activeIndex={2}
+                    noImgDetails={true}
                   />
                 </div>
                 <div className="viewer_Lana">
@@ -115,6 +118,7 @@ export default class Illustrations extends React.Component {
                       { src: Maggie_OC, alt:"Maggie" }
                     ]}
                     activeIndex={3}
+                    noImgDetails={true}
                   />
                 </div>
                 <div className="viewer_Kate">
@@ -133,6 +137,7 @@ export default class Illustrations extends React.Component {
                       { src: Maggie_OC, alt:"Maggie" }
                     ]}
                     activeIndex={4}
+                    noImgDetails={true}
                   />
                 </div>
                 <div className="viewer_Maggie">
@@ -151,6 +156,7 @@ export default class Illustrations extends React.Component {
                       { src: Maggie_OC, alt:"Maggie" }
                     ]}
                     activeIndex={5}
+                    noImgDetails={true}
                   />
                 </div>
               </div>
