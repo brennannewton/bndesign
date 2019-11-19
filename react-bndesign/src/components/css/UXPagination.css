@@ -1,0 +1,23 @@
+.UX-project .title {
+  color: white;
+}
+
+.UX-project .call-to-action {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.UX-project .description {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.UX-project .repo-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.viewer_bndesign button {
+    border: 0;
+    padding: 0;
+}
