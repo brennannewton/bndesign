@@ -59,7 +59,10 @@ export default class MVPagination extends React.Component {
                 </div>
               </Col>
               <Col className="mr-4 mb-4">
-                <p className="call-to-action">Click the screenshot to be taken to the live site!</p>
+                <p className="call-to-action">
+                  Click the screenshot to check out my wireframes!
+                </p>
+                <hr />
                 <p className="description">
                   <b>bndesign</b> is both a portfolio for my work and a user
                   experience project. My goal is to create a welcoming space
@@ -70,6 +73,7 @@ export default class MVPagination extends React.Component {
                   dimensionality that grabs the user's attention. These
                   elements come together to highlight my work.
                 </p>
+                <hr />
                 <a href="https://github.com/brennannewton/bndesign" target="_blank">
                   <p className="repo-link">GitHub Repository</p>
                 </a>
