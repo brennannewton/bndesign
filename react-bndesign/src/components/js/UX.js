@@ -15,7 +15,7 @@ import bndesign from '../../img/bndesign_SS_Fade.png';
 export default class UX extends React.Component {
   render() {
     return (
-      <div className="UX-Component m-4">
+      <div className="UX-Component ml-4">
         <h1 className="mb-4">UX</h1>
         <Row className="w-100">
           <Col className="mb-4">
