@@ -12,6 +12,9 @@ import bndesign_mv from '../../img/bndesign_wireframes/MusicVideos.png';
 import bndesign_illustrations from '../../img/bndesign_wireframes/Illustrations.png';
 import bndesign_ux from '../../img/bndesign_wireframes/UX.png';
 import bndesign_contact from '../../img/bndesign_wireframes/Contact.png';
+import electra from '../../img/ELECTRA_SS.png';
+import electra_profile from '../../img/ELECTRA_wireframes/Profile.png';
+import electra_comments from '../../img/ELECTRA_wireframes/Comments.png';
 
 // Styles
 import '../css/UXPagination.css';
@@ -90,18 +93,55 @@ export default class MVPagination extends React.Component {
     }
     else {
       return (
-        <>
-        <div>
-          <iframe src="https://www.youtube.com/embed/Hx60dvg0oFw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <iframe src="https://www.youtube.com/embed/Jqyy7i3Asao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <div className="UX-project">
+          <a href="https://electrala.netlify.com/" target="_blank">
+            <h2 className="title mb-4">ELECTRA</h2>
+          </a>
+          <Row>
+              <Col>
+                <div className="viewer_electra mb-4">
+                  <button onClick={() => { this.setState({ visible: true }); }}>
+                    <img className="w-100" src={ electra } alt="ELECTRA screenshot" />
+                  </button>
+                  <Viewer
+                    visible={this.state.visible}
+                    onClose={() => { this.setState({ visible: false }); }}
+                    images={[
+                      { src: electra_profile, alt: "Profile" },
+                      { src: electra_comments, alt: "Comments" }
+                    ]}
+                    noImgDetails={true}
+                  />
+                </div>
+              </Col>
+              <Col className="mr-4 mb-4">
+                <p className="call-to-action">
+                  Click the screenshot to check out my wireframes!
+                </p>
+                <hr />
+                <p className="description">
+                  <b>ELECTRA</b> is a community built by artists for artists.
+                  The goal is to help the community grow by creating a safe and
+                  supportive environment where constructive feedback is key.
+                  Artists can create profiles and post unfinished work. Then,
+                  they write feedback questions, which drive conversation.
+                  After, the community gives thems tips, tricks, and feedback
+                  on how to improve their work! It's collaboration for the
+                  modern artist.
+                </p>
+                <hr />
+                <a href="https://github.com/electrala" target="_blank">
+                  <p className="repo-link">GitHub Organization</p>
+                </a>
+              </Col>
+          </Row>
+          <Pagination size="sm" className="justify-content-center">
+            {[
+              <Pagination.Item key={1} onClick={() => this.setPage(1)}>1</Pagination.Item>,
+              <Pagination.Item key={2} onClick={() => this.setPage(2)}>2</Pagination.Item>
+            ]}
+          </Pagination>
         </div>
-        <Pagination size="sm" className="justify-content-center">
-          {[
-            <Pagination.Item key={1} onClick={() => this.setPage(1)}>1</Pagination.Item>,
-            <Pagination.Item key={2} onClick={() => this.setPage(2)}>2</Pagination.Item>
-          ]}
-        </Pagination>
-        </>
       )
     }
   }
