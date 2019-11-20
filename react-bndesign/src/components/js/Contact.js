@@ -32,7 +32,8 @@ export default class Contact extends React.Component {
             <h3>Collaboration</h3>
             <p>I love working with other artists, so if you'd like to work together, then let me know.</p>
             <h3>Feedback</h3>
-            <p>I also want to know if you have any thoughts or feelings about my work. I appreciate constructive criticism.</p>
+            <p style={{ marginBottom:0 }}>I also want to know if you have any thoughts or feelings about my work. I appreciate constructive criticism.</p>
+            <iframe id="f00aa893-25c3-43b7-bca5-5967a1665df9" src="https://www.vectary.com/viewer/v1/?model=f00aa893-25c3-43b7-bca5-5967a1665df9&env=damroad" frameBorder="0" width="100%" height="480"></iframe>
           </Col>
         </Row>
       </div>
