@@ -2,7 +2,85 @@
   text-align: left;
 }
 
+.Contact-Component .profile {
+  text-align: center;
+}
+
 .Contact-Component img {
   width: 33%;
   border-radius: 25px;
+}
+
+.fa {
+  padding: 20px;
+  margin: 1rem;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.fa-youtube {
+  background: #FF0000;
+  color: #FFFFFF;
+  padding-left: 20.5px;
+}
+
+.fa-youtube:hover {
+  color: #FFFFFF;
+}
+
+.fa-linkedin {
+  background: #2867B2;
+  color: #FFFFFF;
+  padding-left: 23px;
+}
+
+.fa-linkedin:hover {
+  color: #FFFFFF;
+}
+
+.fa-instagram {
+  background: url('../../img/ig_gradient.jpg');
+  background-size: 100%;
+  color: #FFFFFF;
+  padding-left: 20.5px;
+}
+
+.fa-instagram:hover {
+  color: #FFFFFF;
+}
+
+.fa-spotify {
+  background: #191414;
+  color: #1DB954;
+  padding-top: 19px;
+  padding-left: 20.5px;
+  font-size: 35px;
+}
+
+.fa-spotify:hover {
+  color: #1DB954;
+}
+
+.fa-soundcloud {
+  background: #FE5000;
+  color: #FFFFFF;
+  padding-top: 23px;
+  font-size: 24px;
+}
+
+.fa-soundcloud:hover {
+  color: #FFFFFF;
+}
+
+.Contact-Component p {
+  font-weight: 100;
 }

@@ -13,9 +13,18 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="Contact-Component">
-        <Row>
-          <Col className="ml-4">
-            <img src={ProfilePic} alt="Headshot" />
+        <Row className="w-100">
+          <Col className="profile ml-4 justify-content-center">
+            <img className="mb-4" src={ProfilePic} alt="Headshot" />
+            <div className="mb-4">
+              <a href="https://www.youtube.com/channel/UCdbh95QEtoahUYoLvq586-A" target="_blank" class="fa fa-youtube"></a>
+              <a href="https://www.linkedin.com/in/brennan-newton-075238145/" target="_blank" class="fa fa-linkedin"></a>
+              <br />
+              <a href="https://www.instagram.com/newtonbrennan/" target="_blank" class="fa fa-instagram"></a>
+              <a href="https://open.spotify.com/user/brennannewton" target="_blank" class="fa fa-spotify"></a>
+              <br />
+              <a href="https://soundcloud.com/brennannewton" target="_blank" class="fa fa-soundcloud"></a>
+            </div>
           </Col>
           <Col>
             <h1>Contact me.</h1>
