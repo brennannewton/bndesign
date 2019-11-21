@@ -28,7 +28,8 @@
   display: none;
 }
 
-/* Display 3D object for sm, md, lg, & xl devices */
+/* Enlarge illustrations for sm, md, lg, & xl devices */
+/* Display 3D object for sm+ devices */
 @media (min-width: 576px) { 
   .Illustrations-Component .illustrations-container img {
     height: 200px;
