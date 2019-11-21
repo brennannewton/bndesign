@@ -16,6 +16,7 @@ export default class UX extends React.Component {
             <UXPagination />
           </div>
         </Row>
+        
       </div>
     )
   }

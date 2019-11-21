@@ -10,6 +10,7 @@
 .UX-project .description {
   font-size: 1.2rem;
   font-weight: 100;
+  line-height: 2rem;
 }
 
 .UX-project .repo-link {
@@ -19,11 +20,20 @@
 }
 
 .viewer_bndesign button {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 .viewer_electra button {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
+}
+
+@media (min-width: 1200px) { 
+  .viewer_bndesign button {
+    margin-right: 2rem;
+  }
+  .viewer_electra button {
+    margin-right: 2rem;
+  }
 }

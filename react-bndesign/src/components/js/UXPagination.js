@@ -39,11 +39,11 @@ export default class MVPagination extends React.Component {
       return (
         <div className="UX-project">
           <a href="https://bndesign.netlify.com/" target="_blank">
-            <h2 className="title mb-4">bndesign</h2>
+            <h2 className="title mb-4 ml-2">bndesign</h2>
           </a>
           <Row>
-              <Col>
-                <div className="viewer_bndesign mb-4">
+              <Col xs={11} xl={5} className="p-0">
+                <div className="viewer_bndesign w-100 mb-4 ml-4 p-0">
                   <button onClick={() => { this.setState({ visible: true }); }}>
                     <img className="w-100" src={ bndesign } alt="bndesign screenshot" />
                   </button>
@@ -61,7 +61,7 @@ export default class MVPagination extends React.Component {
                   />
                 </div>
               </Col>
-              <Col className="mr-4 mb-4">
+              <Col xs={11} xl={6} className="mb-4 ml-4 p-0">
                 <p className="call-to-action">
                   Click the screenshot to check out my wireframes!
                 </p>
@@ -95,11 +95,11 @@ export default class MVPagination extends React.Component {
       return (
         <div className="UX-project">
           <a href="https://electrala.netlify.com/" target="_blank">
-            <h2 className="title mb-4">ELECTRA</h2>
+            <h2 className="title mb-4 ml-2">ELECTRA</h2>
           </a>
           <Row>
-              <Col>
-                <div className="viewer_electra mb-4">
+              <Col xs={11} xl={5} className="p-0">
+                <div className="viewer_electra w-100 mb-4 ml-4 p-0">
                   <button onClick={() => { this.setState({ visible: true }); }}>
                     <img className="w-100" src={ electra } alt="ELECTRA screenshot" />
                   </button>
@@ -114,7 +114,7 @@ export default class MVPagination extends React.Component {
                   />
                 </div>
               </Col>
-              <Col className="mr-4 mb-4">
+              <Col xs={11} xl={6} className="mb-4 ml-4 p-0">
                 <p className="call-to-action">
                   Click the screenshot to check out my wireframes!
                 </p>
