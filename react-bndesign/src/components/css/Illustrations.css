@@ -21,7 +21,26 @@
 }
 
 .Illustrations-Component .illustrations-container img {
-  height: 200px;
+  height: 150px;
+}
+
+.Illustrations-Component iframe {
+  display: none;
+}
+
+/* Display 3D object for sm, md, lg, & xl devices */
+@media (min-width: 576px) { 
+  .Illustrations-Component .illustrations-container img {
+    height: 200px;
+  }
+  .Illustrations-Component iframe {
+    display: block;
+  }
+}
+
+/* Expand illustrations for md, lg, & xl devices */
+@media (min-width: 768px) {
+  
 }
 
 .Illustrations-Component p {

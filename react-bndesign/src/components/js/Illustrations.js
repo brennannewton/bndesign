@@ -34,7 +34,7 @@ export default class Illustrations extends React.Component {
       return (
         <div className="Illustrations-Component">
           <Row className="justify-content-center w-100">
-            <Col xs={11} md={5} className="justify-content-center mt-4 mr-4 mb-5 ml-5"> 
+            <Col xs={11} xl={5} className="justify-content-center mt-4 mr-4 mb-5 ml-5"> 
               <h1>Illustrations</h1>
               <p>
                 Meet <b>The Creep Beaters</b>, best friends who protect the innocent.
@@ -43,7 +43,7 @@ export default class Illustrations extends React.Component {
               </p>
               <iframe id="5bb7fddc-528e-415d-a97a-22de24f930e0" src="https://www.vectary.com/viewer/v1/?model=5bb7fddc-528e-415d-a97a-22de24f930e0&env=sataranightnolights" frameBorder="0" width="100%" height="480"></iframe>
             </Col>
-            <Col xs={11} md={6} className="justify-content-center mt-2 mr-4 mb-5">
+            <Col xs={11} xl={6} className="justify-content-center mt-2 mb-5">
               <div className="illustrations-container m-auto">
                 <div className="viewer_B">
                   <button onClick={() => { this.setState({ visible_B: true }); }}>
