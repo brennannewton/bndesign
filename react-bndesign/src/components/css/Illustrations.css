@@ -38,11 +38,6 @@
   }
 }
 
-/* Expand illustrations for md, lg, & xl devices */
-@media (min-width: 768px) {
-  
-}
-
 .Illustrations-Component p {
   font-size: 1.2rem;
   font-weight: 200;
