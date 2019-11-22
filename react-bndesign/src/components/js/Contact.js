@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
       <div className="Contact-Component">
         <Row className="w-100">
           <Col className="profile ml-4 justify-content-center">
-            <img className="mb-4" src={ProfilePic} alt="Headshot" />
+            <img className="profile=pic mb-4" src={ProfilePic} alt="Headshot" />
             <div className="mb-4">
               <a href="https://www.youtube.com/channel/UCdbh95QEtoahUYoLvq586-A" target="_blank" class="fa fa-youtube"></a>
               <a href="https://www.linkedin.com/in/brennan-newton-075238145/" target="_blank" class="fa fa-linkedin"></a>

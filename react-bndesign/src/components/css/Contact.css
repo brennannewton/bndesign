@@ -7,8 +7,9 @@
 }
 
 .Contact-Component img {
-  width: 33%;
+  width: 50%;
   border-radius: 25px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .fa {
@@ -23,7 +24,6 @@
 }
 
 .fa:hover {
-  opacity: 0.7;
   text-decoration: none;
 }
 
@@ -31,20 +31,28 @@
   background: #FF0000;
   color: #FFFFFF;
   padding-left: 20.5px;
+
+  transition: 0.3s;
 }
 
 .fa-youtube:hover {
-  color: #FFFFFF;
+  background: rgb(217, 255, 0);
+  color: #000000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .fa-linkedin {
   background: #2867B2;
   color: #FFFFFF;
   padding-left: 23px;
+
+  transition: 0.3s;
 }
 
 .fa-linkedin:hover {
-  color: #FFFFFF;
+  background: rgb(217, 255, 0);
+  color: #000000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .fa-instagram {
@@ -52,10 +60,14 @@
   background-size: 100%;
   color: #FFFFFF;
   padding-left: 20.5px;
+
+  transition: 0.3s;
 }
 
 .fa-instagram:hover {
-  color: #FFFFFF;
+  background: rgb(217, 255, 0);
+  color: #000000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .fa-spotify {
@@ -64,10 +76,14 @@
   padding-top: 19px;
   padding-left: 20.5px;
   font-size: 35px;
+
+  transition: 0.3s;
 }
 
 .fa-spotify:hover {
-  color: #1DB954;
+  background: rgb(217, 255, 0);
+  color: #000000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .fa-soundcloud {
@@ -75,10 +91,14 @@
   color: #FFFFFF;
   padding-top: 23px;
   font-size: 24px;
+
+  transition: 0.3s;
 }
 
 .fa-soundcloud:hover {
-  color: #FFFFFF;
+  background: rgb(217, 255, 0);
+  color: #000000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 }
 
 .Contact-Component p {
