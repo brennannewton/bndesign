@@ -21,7 +21,7 @@ export default class Home extends React.Component {
             I design websites, animations, character illustrations, and user experiences.
             <br />
             <br />
-            Click the icons top right to explore my work and contact me.
+            Click the icons at the top right to explore my work and contact me.
           </Col>
           <Col xs={8} md={4} className="mt-0 ml-5 mr-5 mb-0 p-5 ux">
             <b>User Experience (UX)</b>
