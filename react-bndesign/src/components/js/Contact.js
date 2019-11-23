@@ -33,6 +33,9 @@ export default class Contact extends React.Component {
             <p>I love working with other artists, so if you'd like to work together, then let me know.</p>
             <h3>Feedback</h3>
             <p style={{ marginBottom:0 }}>I also want to know if you have any thoughts or feelings about my work. I appreciate constructive criticism.</p>
+            <div className="fb-survey mt-4">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsJTmj2fMVTgcGsZWumBaa0bWcmQEXDvE_OIC8UgPrKZ0WGA/viewform?usp=sf_link" target="_blank">Feedback Survey</a>  
+            </div>
             <iframe id="f00aa893-25c3-43b7-bca5-5967a1665df9" src="https://www.vectary.com/viewer/v1/?model=f00aa893-25c3-43b7-bca5-5967a1665df9&env=damroad" frameBorder="0" width="100%" height="480"></iframe>
           </Col>
         </Row>

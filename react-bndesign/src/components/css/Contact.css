@@ -112,3 +112,20 @@
   font-weight: 100;
   font-size: 1.2rem;
 }
+
+.fb-survey a {
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: rgb(217, 255, 0);
+  background-color: #3446E8;
+  padding: 0.5rem;
+
+  transition: 0.25s;
+}
+
+.fb-survey a:hover {
+  text-decoration: none;
+  color: rgb(217, 255, 0);
+  background-color: black;
+  padding: 0.75rem;
+}
