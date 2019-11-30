@@ -35,11 +35,15 @@ export default class Illustrations extends React.Component {
         <div className="Illustrations-Component">
           <Row className="justify-content-center w-100">
             <Col xs={11} xl={5} className="justify-content-center mt-4 mr-4 mb-5 ml-5"> 
-              <h1>Illustrations</h1>
+              <h1 className="mb-4">Illustrations</h1>
               <p>
-                Meet <b>The Creep Beaters</b>, best friends who protect the innocent.
-                Each member has a unique power, such as being able to freeze time.
-                My goal is to animate them or turn them into a comic.
+                Meet <b>The Creep Beaters</b>, best friends who protect the
+                innocent. Each member has a unique power:
+                <br />
+                <br />
+                B controls body temperature, Mads communicates with animals,
+                Cal stops time, Lana deceives people's ears, Kate manipulates
+                electricity, & Maggie deceives people's eyes.
               </p>
               <iframe id="5bb7fddc-528e-415d-a97a-22de24f930e0" src="https://www.vectary.com/viewer/v1/?model=5bb7fddc-528e-415d-a97a-22de24f930e0&env=sataranightnolights" frameBorder="0" width="100%" height="480"></iframe>
             </Col>
