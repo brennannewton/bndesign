@@ -68,13 +68,12 @@ export default class MVPagination extends React.Component {
                 <hr />
                 <p className="description">
                   <b>bndesign</b> is both a portfolio for my work and a user
-                  experience project. My goal is to create a welcoming space
-                  where recruiters, hiring managers, and enthusiasts can
-                  explore my digital content. Soft, minimal design gives the
-                  site space, which allows the user to easily focus on the
-                  content. Contrast that with metalic 3D objects to create
-                  dimensionality that grabs the user's attention. These
-                  elements come together to highlight my work.
+                  experience, where recruiters, hiring managers, and
+                  enthusiasts can explore my digital content. Soft, minimal
+                  design makes the site feel welcoming and open, which directs
+                  the user's focus to the content. Contrast that with metalic
+                  3D objects that grab the user's attention. The total experience
+                  comes together to highlight my work.
                 </p>
                 <hr />
                 <a href="https://github.com/brennannewton/bndesign" target="_blank">
@@ -120,14 +119,11 @@ export default class MVPagination extends React.Component {
                 </p>
                 <hr />
                 <p className="description">
-                  <b>ELECTRA</b> is a community built by artists for artists.
-                  The goal is to help the community grow by creating a safe and
-                  supportive environment where constructive feedback is key.
-                  Artists can create profiles and post unfinished work. Then,
-                  they write feedback questions, which drive conversation.
-                  After, the community gives thems tips, tricks, and feedback
-                  on how to improve their work! It's collaboration for the
-                  modern artist.
+                  <b>ELECTRA</b> is a community built by artists for artists,
+                  where a safe and supportive environment fosters constructive
+                  feedback. Artists create profiles and post unfinished work.
+                  Then, they ask questions and receive feedback on how to
+                  improve their work. It's collaboration for the modern artist!
                 </p>
                 <hr />
                 <a href="https://github.com/electrala" target="_blank">
