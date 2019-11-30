@@ -18,10 +18,11 @@ export default class MusicVideos extends React.Component {
             </div>
           </Col>
           <Col xs={11} xl={5} className="justify-content-center mt-2 mr-5 ml-5">
-            <h1>Music Videos</h1>
+            <h1 className="mb-3">Music Videos</h1>
             <p style={{ marginBottom:0 }}>
-              Because they take up both time & space, videos can be used to convey complex ideas.
-              Bring music into the mix, and now you have a way to portray complex emotions.
+              My music videos convey a variey of emotions. Some follow
+              transformation through loss, while others simply make you laugh.
+              Click the video titles to learn more about each video.
             </p>
             <Row className="mt-3">
               <Col xs={12} md={4} className="p-0">
