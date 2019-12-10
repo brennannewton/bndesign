@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import '../css/Contact.css';
 
 // Images
-import ProfilePic from '../../img/Brennan-Profile.jpg';
+import ProfilePic from '../../img/Headshot.jpg';
 
 export default class Contact extends React.Component {
   render() {
