@@ -20,7 +20,7 @@ export default class MusicVideos extends React.Component {
           <Col xs={11} xl={5} className="justify-content-center mt-2 mr-5 ml-5">
             <h1 className="mb-3">Music Videos</h1>
             <p style={{ marginBottom:0 }}>
-              My music videos convey a variey of emotions. Some follow
+              My music videos convey a variety of emotions. Some follow
               transformation through loss, while others simply make you laugh.
               Click the video titles to learn more about each video.
             </p>
