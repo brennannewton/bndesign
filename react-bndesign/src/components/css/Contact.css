@@ -80,9 +80,7 @@
 .fa-spotify {
   background: #191414;
   color: #1DB954;
-  padding-top: 19px;
   padding-left: 20.5px;
-  font-size: 35px;
 
   transition: 0.25s;
 }
@@ -103,6 +101,24 @@
 }
 
 .fa-soundcloud:hover {
+  background: rgb(217, 255, 0);
+  color: #000000;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+.fa-github {
+  background: #333333;
+  color: #fafafa;
+
+  transition: 0.25s;
+}
+
+.fa-github a {
+  padding-left: 20.5px;
+  padding-top: 19px;
+}
+
+.fa-github:hover {
   background: rgb(217, 255, 0);
   color: #000000;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);

@@ -24,6 +24,7 @@ export default class Contact extends React.Component {
               <a href="https://open.spotify.com/user/brennannewton" target="_blank" class="fa fa-spotify"></a>
               <br />
               <a href="https://soundcloud.com/brennannewton" target="_blank" class="fa fa-soundcloud"></a>
+              <a href="https://github.com/brennannewton" target="_blank" class="fa fa-github"></a>
             </div>
           </Col>
           <Col className="ml-4 mr-4">
