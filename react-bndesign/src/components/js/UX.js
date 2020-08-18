@@ -16,7 +16,6 @@ export default class UX extends React.Component {
             <UXPagination />
           </div>
         </Row>
-        <iframe id="4e56172c-830d-464b-93d9-878212c0763b" src="https://www.vectary.com/viewer/v1/?model=4e56172c-830d-464b-93d9-878212c0763b&env=skatepark" frameBorder="0" width="100%" height="480"></iframe>
       </div>
     )
   }

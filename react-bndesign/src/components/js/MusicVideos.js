@@ -24,17 +24,6 @@ export default class MusicVideos extends React.Component {
               transformation through loss, while others simply make you laugh.
               Click the video titles to learn more about each video.
             </p>
-            <Row className="mt-3">
-              <Col xs={12} md={4} className="p-0">
-                 <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=redwall" frameBorder="0" width="100%" height="480"></iframe>
-              </Col>
-              <Col xs={12} md={4} className="p-1">
-                <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=redwall" frameBorder="0" width="100%" height="480"></iframe>
-              </Col>
-              <Col xs={12} md={4} className="p-0">
-                <iframe id="30c936b7-b733-4ea9-9464-2fad0bf27a3a" src="https://www.vectary.com/viewer/v1/?model=30c936b7-b733-4ea9-9464-2fad0bf27a3a&env=redwall" frameBorder="0" width="100%" height="480"></iframe>
-              </Col>
-            </Row>
           </Col>
         </Row>
       </div>
