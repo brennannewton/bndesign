@@ -38,7 +38,11 @@ export default class MVPagination extends React.Component {
     if(this.state.showPg === 1) {
       return (
         <div className="UX-project">
-          <a href="https://bndesign.netlify.com/" target="_blank">
+          <a
+            href="https://bndesign.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h2 className="title mb-4 ml-2">bndesign</h2>
           </a>
           <Row>
@@ -76,7 +80,11 @@ export default class MVPagination extends React.Component {
                   comes together to highlight my work.
                 </p>
                 <hr />
-                <a href="https://github.com/brennannewton/bndesign" target="_blank">
+                <a
+                  href="https://github.com/brennannewton/bndesign"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <p className="repo-link">GitHub Repository</p>
                 </a>
               </Col>
@@ -93,7 +101,11 @@ export default class MVPagination extends React.Component {
     else {
       return (
         <div className="UX-project">
-          <a href="https://electrala.netlify.com/" target="_blank">
+          <a
+            href="https://electrala.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h2 className="title mb-4 ml-2">ELECTRA</h2>
           </a>
           <Row>
@@ -126,7 +138,11 @@ export default class MVPagination extends React.Component {
                   improve their work. It's collaboration for the modern artist!
                 </p>
                 <hr />
-                <a href="https://github.com/electrala" target="_blank">
+                <a
+                  href="https://github.com/electrala"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <p className="repo-link">GitHub Organization</p>
                 </a>
               </Col>

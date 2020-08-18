@@ -17,14 +17,44 @@ export default class Contact extends React.Component {
           <Col className="profile ml-4 justify-content-center">
             <img className="profile=pic mb-4" src={ProfilePic} alt="Headshot" />
             <div className="mb-4">
-              <a href="https://www.youtube.com/channel/UCdbh95QEtoahUYoLvq586-A" target="_blank" class="fa fa-youtube"></a>
-              <a href="https://www.linkedin.com/in/brennan-newton-075238145/" target="_blank" class="fa fa-linkedin"></a>
+              <a
+                href="https://www.youtube.com/channel/UCdbh95QEtoahUYoLvq586-A"
+                target="_blank" 
+                class="fa fa-youtube"
+                rel="noopener noreferrer"
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/brennan-newton-075238145/"
+                target="_blank"
+                class="fa fa-linkedin"
+                rel="noopener noreferrer"
+              ></a>
               <br />
-              <a href="https://www.instagram.com/newtonbrennan/" target="_blank" class="fa fa-instagram"></a>
-              <a href="https://open.spotify.com/user/brennannewton" target="_blank" class="fa fa-spotify"></a>
+              <a
+                href="https://www.instagram.com/newtonbrennan/"
+                target="_blank"
+                class="fa fa-instagram"
+                rel="noopener noreferrer"
+              ></a>
+              <a
+                href="https://open.spotify.com/user/brennannewton"
+                target="_blank"
+                class="fa fa-spotify"
+                rel="noopener noreferrer"
+              ></a>
               <br />
-              <a href="https://soundcloud.com/brennannewton" target="_blank" class="fa fa-soundcloud"></a>
-              <a href="https://github.com/brennannewton" target="_blank" class="fa fa-github"></a>
+              <a
+                href="https://soundcloud.com/brennannewton"
+                target="_blank"
+                class="fa fa-soundcloud"
+                rel="noopener noreferrer"
+              ></a>
+              <a
+                href="https://github.com/brennannewton"
+                target="_blank"
+                class="fa fa-github"
+                rel="noopener noreferrer"
+              ></a>
             </div>
           </Col>
           <Col className="ml-4 mr-4">
