@@ -22,39 +22,39 @@ export default class Contact extends React.Component {
                 target="_blank" 
                 class="fa fa-youtube"
                 rel="noopener noreferrer"
-              ></a>
+              > </a>
               <a
                 href="https://www.linkedin.com/in/brennan-newton-075238145/"
                 target="_blank"
                 class="fa fa-linkedin"
                 rel="noopener noreferrer"
-              ></a>
+              > </a>
               <br />
               <a
                 href="https://www.instagram.com/newtonbrennan/"
                 target="_blank"
                 class="fa fa-instagram"
                 rel="noopener noreferrer"
-              ></a>
+              > </a>
               <a
                 href="https://open.spotify.com/user/brennannewton"
                 target="_blank"
                 class="fa fa-spotify"
                 rel="noopener noreferrer"
-              ></a>
+              > </a>
               <br />
               <a
                 href="https://soundcloud.com/brennannewton"
                 target="_blank"
                 class="fa fa-soundcloud"
                 rel="noopener noreferrer"
-              ></a>
+              > </a>
               <a
                 href="https://github.com/brennannewton"
                 target="_blank"
                 class="fa fa-github"
                 rel="noopener noreferrer"
-              ></a>
+              > </a>
             </div>
           </Col>
           <Col className="ml-4 mr-4">
@@ -65,7 +65,11 @@ export default class Contact extends React.Component {
             <h3>Feedback</h3>
             <p style={{ marginBottom:0 }}>I also want to know if you have any thoughts or feelings about my work. I appreciate constructive criticism.</p>
             <div className="fb-survey mt-4">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsJTmj2fMVTgcGsZWumBaa0bWcmQEXDvE_OIC8UgPrKZ0WGA/viewform?usp=sf_link" target="_blank">Feedback Survey</a>  
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfsJTmj2fMVTgcGsZWumBaa0bWcmQEXDvE_OIC8UgPrKZ0WGA/viewform?usp=sf_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Feedback Survey</a>  
             </div>
           </Col>
         </Row>
