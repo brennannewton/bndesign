@@ -7,7 +7,7 @@
 }
 
 .Contact-Component img {
-  width: 35%;
+  width: 30%;
   border-radius: 25px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
 
@@ -15,8 +15,7 @@
 }
 
 .Contact-Component img:hover {
-  width: 50%;
-  transform: rotate(360deg);
+  width: 35%;
 }
 
 .fa {
