@@ -14,10 +14,7 @@
 
 .Illustrations { background-image: linear-gradient(#000000, #8F97E3); }
 
-.UX {
-  background-image: linear-gradient(#3762C6, #A5CAE5);
-  height: 100vh;
-}
+.UX { background-image: linear-gradient(#3762C6, #A5CAE5); }
 
 .Contact {
   background-image: linear-gradient(#3446E8, #DFE1D3);
